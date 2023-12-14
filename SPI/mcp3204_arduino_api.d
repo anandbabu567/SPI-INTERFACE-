@@ -1,0 +1,9 @@
+.\mcp3204_arduino_api.o: mcp3204_arduino_api.c
+.\mcp3204_arduino_api.o: types.h
+.\mcp3204_arduino_api.o: spi_defines.h
+.\mcp3204_arduino_api.o: defines.h
+.\mcp3204_arduino_api.o: arduino_api.h
+.\mcp3204_arduino_api.o: pin_function_defines.h
+.\mcp3204_arduino_api.o: spi.h
+.\mcp3204_arduino_api.o: delay.h
+.\mcp3204_arduino_api.o: mcp3204_defines.h

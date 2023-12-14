@@ -1,0 +1,15 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\mcp3204.o"
+".\delay.o"
+".\gpio.o"
+".\arduino_api.o"
+".\lcd_arduino_api.o"
+".\lm35.o"
+".\spi_arduino_api.o"
+".\external_interrupts.o"
+".\main_eint0_interrupt.o"
+--strict --scatter ".\MCP3204.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\MCP3204.map" -o .\MCP3204.axf

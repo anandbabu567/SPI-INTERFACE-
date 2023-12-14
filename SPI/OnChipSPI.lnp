@@ -1,0 +1,9 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\mcp3204.o"
+".\delay.o"
+".\main_mcp3204_leds.o"
+--strict --scatter ".\OnChipSPI.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\OnChipSPI.map" -o .\OnChipSPI.axf

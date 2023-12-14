@@ -1,0 +1,12 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\external_interrupts.o"
+".\main_eint0_interrupt.o"
+".\arduino_api.o"
+".\lcd_arduino_api.o"
+".\gpio.o"
+".\delay.o"
+--strict --scatter "Ext_INTs.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Ext_INTs.map" -o .\Ext_INTs.axf

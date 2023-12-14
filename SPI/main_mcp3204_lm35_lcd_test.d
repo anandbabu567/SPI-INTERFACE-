@@ -1,0 +1,14 @@
+.\main_mcp3204_lm35_lcd_test.o: main_mcp3204_lm35_lcd_test.c
+.\main_mcp3204_lm35_lcd_test.o: C:\Keil\ARM\Inc\Philips\LPC21xx.h
+.\main_mcp3204_lm35_lcd_test.o: types.h
+.\main_mcp3204_lm35_lcd_test.o: mcp3204.h
+.\main_mcp3204_lm35_lcd_test.o: delay.h
+.\main_mcp3204_lm35_lcd_test.o: pin_function_defines.h
+.\main_mcp3204_lm35_lcd_test.o: arduino_api.h
+.\main_mcp3204_lm35_lcd_test.o: pin_function_defines.h
+.\main_mcp3204_lm35_lcd_test.o: lcd_defines.h
+.\main_mcp3204_lm35_lcd_test.o: lcd.h
+.\main_mcp3204_lm35_lcd_test.o: external_interrupt_defines.h
+.\main_mcp3204_lm35_lcd_test.o: external_interrupts.h
+.\main_mcp3204_lm35_lcd_test.o: defines.h
+.\main_mcp3204_lm35_lcd_test.o: lm35.h

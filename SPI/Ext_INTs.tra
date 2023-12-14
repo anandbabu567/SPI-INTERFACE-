@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'Ext_INTs.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"ext_int.o"'
+### ADS-LD Command completed:
+"startup.o" "ext_int.o" --device DARMP --strict --scatter "Ext_INTs.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Ext_INTs.map" -o "Ext_INTs.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'Ext_INTs.axf'
+### ADS-LD Command File: 'Ext_INTs.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'Ext_INTs.lnp', Handle=0x000001E8
+### Writing '.lnp' file
+### ADS-LD Command file 'Ext_INTs.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

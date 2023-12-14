@@ -1,0 +1,9 @@
+.\mcp3204.o: mcp3204.c
+.\mcp3204.o: C:\Keil\ARM\Inc\Philips\LPC21xx.h
+.\mcp3204.o: types.h
+.\mcp3204.o: spi_defines.h
+.\mcp3204.o: defines.h
+.\mcp3204.o: spi.h
+.\mcp3204.o: delay.h
+.\mcp3204.o: lcd.h
+.\mcp3204.o: lcd_defines.h

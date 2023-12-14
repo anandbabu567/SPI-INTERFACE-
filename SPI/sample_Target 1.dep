@@ -1,0 +1,109 @@
+Dependencies for Project 'sample', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x6396B31B)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\spi.c)(0x63B6E9E6)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork -I C:\Keil4_ARM\ARM\RV31\INC-I C:\Keil4_ARM\ARM\CMSIS\Include-I C:\Keil4_ARM\ARM\Inc\Philips-o .\spi.o --omf_browse .\spi.crf --depend .\spi.d)
+F (.\mcp3204.c)(0x63B6ED21)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\mcp3204.o --omf_browse .\mcp3204.crf --depend .\mcp3204.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
+I (types.h)(0x6392CA45)
+I (spi_defines.h)(0x63B6E9E7)
+I (defines.h)(0x6392CB3F)
+I (spi.h)(0x63B6E9E6)
+I (delay.h)(0x63B6E9E4)
+I (lcd.h)(0x63B6E9E4)
+I (lcd_defines.h)(0x63B6E9E4)
+F (.\delay.c)(0x63B6E9E4)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
+I (types.h)(0x6392CA45)
+F (.\main_MCP3204_LEDs.c)(0x63B6E9E5)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\main_mcp3204_leds.o --omf_browse .\main_mcp3204_leds.crf --depend .\main_mcp3204_leds.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
+I (types.h)(0x6392CA45)
+I (mcp3204.h)(0x63B6E9E5)
+I (delay.h)(0x63B6E9E4)
+F (.\main_MCP3204_LCD.c)(0x63B6E9E5)()
+F (.\lcd8.c)(0x63B6E9E4)()
+F (.\mcp3204_arduino_api.c)(0x63B6E9E5)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\mcp3204_arduino_api.o --omf_browse .\mcp3204_arduino_api.crf --depend .\mcp3204_arduino_api.d)
+I (types.h)(0x63B6E9E7)
+I (spi_defines.h)(0x63B6E9E7)
+I (defines.h)(0x63B6E9E4)
+I (arduino_api.h)(0x63B6E9E3)
+I (pin_function_defines.h)(0x63B6E9E6)
+I (spi.h)(0x63B6E9E6)
+I (delay.h)(0x63B6E9E4)
+I (mcp3204_defines.h)(0x63B6E9E6)
+F (.\gpio.c)(0x63B6E9E4)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\gpio.o --omf_browse .\gpio.crf --depend .\gpio.d)
+I (types.h)(0x6392CA45)
+I (defines.h)(0x6392CB3F)
+I (pin_function_defines.h)(0x6392D9F8)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
+F (.\main_mcp3204_arduino_api.c)(0x63B6E9E5)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\main_mcp3204_arduino_api.o --omf_browse .\main_mcp3204_arduino_api.crf --depend .\main_mcp3204_arduino_api.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
+I (types.h)(0x63B6E9E7)
+I (mcp3204.h)(0x63B6E9E5)
+I (delay.h)(0x63B6E9E4)
+I (pin_function_defines.h)(0x63B6E9E6)
+I (arduino_api.h)(0x63B6E9E3)
+F (.\arduino_api.c)(0x6392D9CF)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\arduino_api.o --omf_browse .\arduino_api.crf --depend .\arduino_api.d)
+I (types.h)(0x6392CA45)
+I (pin_function_defines.h)(0x6392D9F8)
+I (gpio.h)(0x6392D971)
+F (.\lcd_arduino_api.c)(0x63B6E9E4)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\lcd_arduino_api.o --omf_browse .\lcd_arduino_api.crf --depend .\lcd_arduino_api.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
+I (types.h)(0x6392CA45)
+I (lcd_defines.h)(0x63B6E9E4)
+I (delay.h)(0x63B6E9E4)
+I (arduino_api.h)(0x63B6F5DF)
+I (pin_function_defines.h)(0x6392D9F8)
+F (.\main_mcp3204_lcd_test.c)(0x63B6ECF5)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\main_mcp3204_lcd_test.o --omf_browse .\main_mcp3204_lcd_test.crf --depend .\main_mcp3204_lcd_test.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
+I (types.h)(0x6392CA45)
+I (mcp3204.h)(0x63B6E9E5)
+I (delay.h)(0x63B6E9E4)
+I (pin_function_defines.h)(0x6392D9F8)
+I (arduino_api.h)(0x63B6F5DF)
+I (lcd_defines.h)(0x63B6E9E4)
+I (lcd.h)(0x63B6E9E4)
+F (.\lm35.c)(0x63B6ECCD)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\lm35.o --omf_browse .\lm35.crf --depend .\lm35.d)
+I (types.h)(0x6392CA45)
+I (mcp3204.h)(0x63B6E9E5)
+I (lcd_defines.h)(0x63B6E9E4)
+I (lcd.h)(0x63B6E9E4)
+I (mcp3204_defines.h)(0x63B70787)
+F (.\main_mcp3204_lm35_lcd_test.c)(0x63B992FA)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\main_mcp3204_lm35_lcd_test.o --omf_browse .\main_mcp3204_lm35_lcd_test.crf --depend .\main_mcp3204_lm35_lcd_test.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
+I (types.h)(0x6392CA45)
+I (mcp3204.h)(0x63B6E9E5)
+I (delay.h)(0x63B6E9E4)
+I (pin_function_defines.h)(0x6392D9F8)
+I (arduino_api.h)(0x63B6F5DF)
+I (lcd_defines.h)(0x63B6E9E4)
+I (lcd.h)(0x63B6E9E4)
+I (external_interrupt_defines.h)(0x63B99167)
+I (external_interrupts.h)(0x6396B735)
+I (defines.h)(0x6392CB3F)
+I (lm35.h)(0x63B6E9E4)
+F (.\spi_arduino_api.c)(0x63B6E9E6)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\spi_arduino_api.o --omf_browse .\spi_arduino_api.crf --depend .\spi_arduino_api.d)
+I (types.h)(0x6392CA45)
+I (spi_defines.h)(0x63B6E9E7)
+I (defines.h)(0x6392CB3F)
+I (delay.h)(0x63B6E9E4)
+I (arduino_api.h)(0x63B6F5DF)
+I (pin_function_defines.h)(0x6392D9F8)
+F (.\External_Interrupts.c)(0x63B996B6)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\external_interrupts.o --omf_browse .\external_interrupts.crf --depend .\external_interrupts.d)
+I (types.h)(0x6392CA45)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
+I (defines.h)(0x6392CB3F)
+I (external_interrupt_defines.h)(0x63B99167)
+I (delay.h)(0x63B6E9E4)
+I (pin_function_defines.h)(0x6392D9F8)
+I (arduino_api.h)(0x63B6F5DF)
+I (lcd_defines.h)(0x63B6E9E4)
+I (lcd.h)(0x63B6E9E4)
+F (.\main_eint0_interrupt.c)(0x657B1F3D)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\main_eint0_interrupt.o --omf_browse .\main_eint0_interrupt.crf --depend .\main_eint0_interrupt.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
+I (types.h)(0x6392CA45)
+I (defines.h)(0x6392CB3F)
+I (delay.h)(0x63B6E9E4)
+I (external_interrupt_defines.h)(0x63B99167)
+I (external_interrupts.h)(0x6396B735)
+I (arduino_api.h)(0x63B6F5DF)
+I (pin_function_defines.h)(0x6392D9F8)
+I (lcd_defines.h)(0x63B6E9E4)
+I (lcd.h)(0x63B6E9E4)
